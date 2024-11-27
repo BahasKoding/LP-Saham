@@ -7,7 +7,7 @@ import { Home } from './pages/Home';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <div className="bg-black min-h-screen">
         <Navbar />
         <Routes>
