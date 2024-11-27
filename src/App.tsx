@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { Navbar } from './components/Navbar';
 import { Footer } from './components/Footer';
 import { FloatingButtons } from './components/FloatingButtons';
@@ -7,7 +7,7 @@ import { Home } from './pages/Home';
 
 function App() {
   return (
-    <BrowserRouter basename={import.meta.env.BASE_URL}>
+    <Router>
       <div className="bg-black min-h-screen">
         <Navbar />
         <Routes>
@@ -16,7 +16,7 @@ function App() {
         <Footer />
         <FloatingButtons />
       </div>
-    </BrowserRouter>
+    </Router>
   );
 }
 
