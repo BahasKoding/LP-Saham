@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 import { useScrollspy } from '../hooks/useScrollspy';
+import { Link } from 'react-router-dom';
 
 const navItems = [
   { href: '#home', label: 'Home' },
