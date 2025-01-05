@@ -47,10 +47,10 @@ SAHAM is an innovative investment platform designed to empower investors with cu
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/saham.git
+git clone https://github.com/bahaskoding/LP-Saham.git
 
 # Navigate to project directory
-cd saham
+cd LP-Saham
 
 # Install dependencies
 npm install
@@ -65,7 +65,7 @@ npm run build
 ### Project Structure
 
 ```
-saham/
+Saham/
 ├── src/
 │   ├── components/
 │   │   ├── Hero.tsx
